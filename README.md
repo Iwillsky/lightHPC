@@ -1,9 +1,12 @@
 # lightHPC
 A light HPC pack base on AWS managed services as Lambda &amp; DynamoDB
 
-Scenario:
+Scenarios:
+
 Loose coupled HPC which parallelized by data zone;
+
 Driven by input file event;
+
 Nearly zero management during usual operations.
 
 
