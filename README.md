@@ -1,5 +1,6 @@
 # lightHPC
 A light HPC pack base on AWS managed services as Lambda &amp; DynamoDB
+
 基于 Lambda + DynamoDB 托管服务构建灵巧型 HPC 集群
 
 适用场景Scenarios:
