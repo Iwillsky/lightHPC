@@ -1,5 +1,6 @@
 # lightHPC
 A light HPC pack base on AWS managed services as Lambda &amp; DynamoDB
+基于 Lambda + DynamoDB 托管服务构建灵巧型 HPC 集群
 
 适用场景Scenarios:
 （1）	弱耦合型：计算过程中间很少数据交互；
@@ -9,6 +10,7 @@ A light HPC pack base on AWS managed services as Lambda &amp; DynamoDB
 （5）	足够节省：平时运维低费用，且算完及时回收资源以降成本。
 
 脚本文件构成:
+
 fLightScheduler.py -- Lambda function of dispatching compute transactions and launching compute instances.   
 jobrun.py -- Compute node simulation script.
 fRlstProc.py -- Lambda function of result processing and SNS notification.
